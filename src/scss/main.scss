@@ -2,12 +2,15 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import "modules/header.scss";
+@import "modules/dots.scss";
 
-body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
+
+// body {
+//   background: $wtf;
+//   color: #fff;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   min-height: 100vh;
+// }

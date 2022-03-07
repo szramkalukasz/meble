@@ -1,0 +1,20 @@
+.dots {
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+
+}
+
+.dots span {
+    display: inline-block;
+    background-color: #000;
+    margin: 0 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px white;
+}
+
+.dots span.active {
+    box-shadow: 0 0 0 5px white, 0 0 3px 10px red;
+}
