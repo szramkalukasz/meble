@@ -1,0 +1,37 @@
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(226, 241, 241);
+}
+
+.plan {
+    padding-top: 120px;
+    margin-left: 120px;
+
+    &__picture {
+        box-shadow: 0 15px 40px;
+        margin-bottom: 70px;
+    }
+}
+
+.suggests {
+    width: 900px;
+
+    &__title {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 115px;
+    }
+
+    &__list {
+        padding-top: 5px;
+    }
+
+    &__list--item {
+        margin-top: 12px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+
+}
