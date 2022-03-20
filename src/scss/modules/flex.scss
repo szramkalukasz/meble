@@ -1,0 +1,9 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__item {
+        max-width: 500px;
+    }
+}
