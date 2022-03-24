@@ -4,27 +4,6 @@
     position: relative;
     overflow: hidden;
 
-    &__navigation {
-        position: absolute;
-        font-family: tahoma, sans-serif;
-        top: 110px;
-        right: 200px;
-        z-index: 1;
-    }
-
-    &__navigation--link {
-        font-size: 22px;
-        color: black;
-        text-decoration: none;
-        display: inline-block;
-        margin-right: 100px;
-
-        &:hover {
-            color: #133799;
-            border-bottom: 2px solid #eb0b0b;
-        }
-    }
-
     &__slider {
         position: absolute;
         min-width: 100%;
