@@ -11,15 +11,71 @@
 <body>
     <header class="menu">
         <nav class="menu__navigation">
-            <a class="menu__navigation--link" href="index.html">Strona główna</a></li>
+            <a class="menu__navigation--link" href="index.html">Strona główna</a>
             <a class="menu__navigation--link" href="firma.html">O Firmie</a>
             <a class="menu__navigation--link" href="galeria.html">Galeria</a>
             <a class="menu__navigation--link" href="oferta.html">Oferta</a>
         </nav>
     </header>
-    <main>
-        <h1>Kontakt</h1>
+    <main class="main-contact">
+        <header class="contact">
+            <h1 class="contact__title">Kontakt</h1>
+            <section class="information">
+                <div class="data">
+                    <h2 class="data__title">Dane kontaktowe</h2>
+                    <p class="data__descripton">Biuro sprzedaży: ul. Lorem ipsum 18 12-345 Lorem</p>
+                    <p class="data__descripton">telefon: 123 123 123</p>
+                    <p class="data__descripton">meble@nawymiar.pl</p>
+                    <p class="data__descripton">Godziny otwarcia: Pn. - Pt.: 8:00 - 16:00</p>
+                </div>
+                <div class="sheet">
+                    <h2 class="sheet__title"> Formularz kontaktowy</h2>
+                    <form class="form">
+                        <p>
+                            <label class="form__label" for="firstName">Imię:
+                                <input class="form__item" type="text" placeholder="Imię" id="firstName"
+                                    name="firstName">
+                            </label>
+                        </p>
+                        <p>
+                            <label class="form__label" for="lastName">Nazwisko:
+                                <input class="form__item" type="text" placeholder="Nazwisko" id="lastName"
+                                    name="lastName">
+                            </label>
+                        </p>
+                        <p>
+                            <label class="form__label" for="phoneNumber">Telefon:
+                                <input class="form__item" type="tel" placeholder="Telefon" id="phoneNumber"
+                                    name="phoneNumber">
+                            </label>
+                        </p>
+                        <p>
+                            <label class="form__label">E-mail:
+                                <input class="form__item" type="email" placeholder="E-mail" id="email" name="email">
+                            </label>
+                        </p>
+                        <p>
+                            <label class="form__label">Temat:
+                                <input class="form__item" type="text" placeholder="Temat" id="temat" name="temat">
+                            </label>
+                        </p>
+                        <p>
+                            <label class="form__label" for="message">Wiadomość</label>
+                            <textarea class="form__textarea" name="message" id="message">Wiadomość...</textarea>
+                        </p>
+
+                        <p>
+                            <input class="form__input" type="submit" name="agreement" value="Wyślij">
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </header>
+
     </main>
+    <footer class="footer">
+        &copy; Copyright Łukasz Szramka.
+    </footer>
 
 </body>
 

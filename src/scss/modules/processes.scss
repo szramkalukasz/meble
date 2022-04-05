@@ -2,11 +2,11 @@
     text-align: center;
 
     &__title {
-        font-size: 25px;
+        font-size: $h4-font-size;
     }
 
     &__descripton {
-        font-size: 18px;
+        font-size: $default-font-size;
     }
 
 }
