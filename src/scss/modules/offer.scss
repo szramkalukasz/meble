@@ -1,0 +1,187 @@
+.main-offer {
+    margin-top: 200px;
+    background-image: url("/src/assets/img/wooden-floor-g317babf70_1920.jpg");
+    background-size: cover;
+}
+
+.offer {
+
+    &__title {
+        padding-top: 120px;
+        font-size: $h1-font-size;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 90px;
+    }
+}
+
+.about-offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.layout {
+    // background-color: aqua;
+    width: 550px;
+}
+
+.kitchen {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 68%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+
+    }
+}
+
+.bathroom {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+
+    }
+}
+
+.wardrobe {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+
+    }
+}
+
+.recess {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+
+    }
+}
+
+.bedroom {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+
+    }
+}
+
+.saloon {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 79%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+
+    }
+}
+
+.office {
+    padding-top: 35px;
+    background-color: rgba(#fff, .3);
+
+    &__photo {
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 15px 40px;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+    }
+
+    &__descripton {
+        text-align: center;
+    }
+}

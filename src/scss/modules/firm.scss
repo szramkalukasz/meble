@@ -1,0 +1,49 @@
+.main-firm {
+    margin-top: 200px;
+    background-image: url("/src/assets/img/pattern-g20354c7ad_1920.jpg");
+}
+
+.firm {
+
+    &__title {
+        padding-top: 120px;
+        font-size: $h1-font-size;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+}
+
+.about-firm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.furniture {
+    width: 900px;
+
+    &__title {
+        font-size: $h2-font-size;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        width: 700px;
+        text-align: center;
+        font-size: $default-font-size;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+}
+
+.presentation {
+    width: 900px;
+
+    &__photo {
+        width: 83%;
+        margin-bottom: 90px;
+        box-shadow: 0 15px 40px;
+    }
+}
