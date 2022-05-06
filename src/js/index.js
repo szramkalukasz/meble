@@ -41,3 +41,5 @@ const changeSlide = () => {
     changeDot()
 }
 setInterval(changeSlide, time)
+
+console.log("test!");

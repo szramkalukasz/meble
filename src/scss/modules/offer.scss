@@ -22,6 +22,8 @@
 }
 
 .layout {
+    margin-top: 30px;
+    margin-bottom: 30px;
     // background-color: aqua;
     width: 550px;
 }
@@ -31,12 +33,22 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 68%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
+
 
     &__title {
         font-size: $h2-font-size;
@@ -54,11 +66,20 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 60%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &__title {
@@ -77,11 +98,20 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 65%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &__title {
@@ -100,11 +130,20 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 60%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &__title {
@@ -123,11 +162,20 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 65%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &__title {
@@ -146,11 +194,20 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 79%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &__title {
@@ -169,11 +226,20 @@
     background-color: rgba(#fff, .3);
 
     &__photo {
+        border: solid 3px rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
         width: 65%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 15px 40px;
+        overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &__title {

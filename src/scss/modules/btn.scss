@@ -1,0 +1,26 @@
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 185px;
+    margin-bottom: 30px;
+
+    // display: block;
+    // margin: 0 auto;
+
+    &:hover {
+        background-color: black;
+    }
+
+    &__link {
+        text-decoration: none;
+        text-align: center;
+        font-size: $default-font-size;
+        color: black;
+        display: block;
+
+        &:hover {
+            color: white;
+        }
+
+    }
+}
