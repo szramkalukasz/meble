@@ -1,0 +1,88 @@
+.popup {
+    align-content: center;
+    animation: fadeIn 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    &__arrow {
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 98px;
+        height: 98px;
+        line-height: 98px;
+        position: absolute;
+        top: 50%;
+        width: 98px;
+
+        &--left {
+            left: 5%;
+        }
+
+        &--right {
+            right: 5%;
+        }
+    }
+
+    .popup__close,
+    .popup__arrow {
+        opacity: 0.5;
+        transition: opacity 0.3s;
+    }
+
+    .popup__close:hover,
+    .popup__arrow:hover {
+        opacity: 1;
+    }
+
+    &__close {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 98px;
+        position: fixed;
+        right: 64px;
+        top: 64px;
+    }
+
+    &__img {
+        max-height: 80%;
+        max-width: 80%;
+    }
+}
+
+.popup.hidden {
+    display: none;
+}
+
+.popup.fade-out {
+    animation: fadeOut 0.3s both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
