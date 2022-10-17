@@ -25,12 +25,13 @@
     margin-top: 30px;
     margin-bottom: 30px;
     // background-color: aqua;
-    width: 550px;
+    max-width: 550px;
+    background-color: rgba(#fff, .3);
 }
 
 .kitchen {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
+
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
@@ -63,7 +64,6 @@
 
 .bathroom {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
@@ -95,7 +95,6 @@
 
 .wardrobe {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
@@ -127,7 +126,6 @@
 
 .recess {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
@@ -159,7 +157,6 @@
 
 .bedroom {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
@@ -191,7 +188,6 @@
 
 .saloon {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
@@ -223,7 +219,6 @@
 
 .office {
     padding-top: 35px;
-    background-color: rgba(#fff, .3);
 
     &__photo {
         border: solid 3px rgba(255, 255, 255, 0.9);
